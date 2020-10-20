@@ -13,10 +13,11 @@ see [egg docs][egg] for more detail.
 
 ```bash
 // 安装
-$ brew install mongodb
+$ brew install mongodb-community
 // 启动
-$ cd /usr/local/mongodb/bin
-$ sudo mongod
+$ brew services start mongodb-community
+// 停止
+$ brew services stop mongodb-community
 ```
 
 
